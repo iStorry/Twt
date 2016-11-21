@@ -1,2 +1,2 @@
-# Twt---xauth-twitter-library
-A simple xauth twitter library ( Private API )
+# Twt
+A simple twitter xauth twitter library ( Private API )
