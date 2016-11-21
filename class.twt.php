@@ -31,7 +31,7 @@
 			$r = $this->call(
 				$this->api . "/auth/1/xauth_password.json", 'send_error_codes=1&x_auth_identifier='.$username.'&x_auth_mode=client_auth&x_auth_password='.$password,
 				'Bearer ' . $this->token, $this->__token());
-			print_r($r);
+			return $r;
 		}
 
 		protected function call($url, $post, $auth, $gtoken) {
